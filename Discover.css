@@ -1,0 +1,73 @@
+/* Discover page: */
+
+body {
+    background-image: url("/Users/adriennecallie/Desktop/test/Discover.png");
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    Font-family: Oswald;
+    Font-style: SemiBold;
+    Letter-spacing: 10px;
+    Line-height: 74px;
+    Line-height: 100%;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+
+p {
+    Font-family: Old Standard TT;
+    Line-height: 25px;
+    Line-height: 100%;
+    Letter-spacing: 1px;
+    Font-style: Regular;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    /* Flexbox: */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.box {
+    width: 20%;
+    height: 300px;
+    margin: 65px;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+
+.first-txt {
+    position: absolute;
+    top: 17px;
+    left: 50px;
+}
+
+
+/* Media quaries */
+
+@media screen and (max-width:600px) {
+    .box {
+        width: 60%;
+        height: fit-content;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .body {
+        width: 100%;
+        height: auto;
+    }
+}
