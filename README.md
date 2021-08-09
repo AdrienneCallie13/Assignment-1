@@ -18,11 +18,13 @@ Product Purpose:
 •	Target audience
 
 Traveller 
+
 This travel website could benefit for traveller from all around the world. We want to provide experience for users by solving the concerns of lacking information about accommodation and target destination. In this website, Traveller able to access more options about affordable accommodation and target destination. 
 
 <img width="599" alt="Traveller persona" src="https://user-images.githubusercontent.com/87454125/128650545-c39431e7-201a-4ef1-9f9a-01e7a8290332.png"> Traveller Persona.
 
 Housewife
+
 This website seeks to target housewife who has children and always have plan for a family trip. The ability to find kid and family friendly travel destination from our website give advantages for a family who wants to have a peaceful and efficient travel. 
 
 <img width="599" alt="Housewife persona" src="https://user-images.githubusercontent.com/87454125/128650459-22329162-acc8-442b-afc5-8142b760867f.png"> Housewife Persona.
