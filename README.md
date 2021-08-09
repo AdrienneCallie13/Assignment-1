@@ -49,8 +49,7 @@ User intention and goals:
 
 <img width="389" alt="user story 1-3" src="https://user-images.githubusercontent.com/87454125/128650621-7618b62a-27df-48ee-aec7-f3188ac0c5e8.png"> 
 <img width="389" alt="user story 4-8" src="https://user-images.githubusercontent.com/87454125/128650625-f66d21b4-d265-438b-ba92-caa7067366ed.png">
-<img width="386" alt="user story 9-10" src="https://user-images.githubusercontent.com/87454125/128650623-09c471d3-1d6f-41c2-98af-439f9af27de4.png"> User stories. 
-
+<img width="386" alt="user story 9-10" src="https://user-images.githubusercontent.com/87454125/128650623-09c471d3-1d6f-41c2-98af-439f9af27de4.png"> 
 
 UX/UI design
 
