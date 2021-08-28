@@ -81,6 +81,21 @@ By using API to integrate any booking system on the website. The benefit of book
 
 Components explanation:
 
+Intended behaviour
+
+Vue complex components explanation:
+
+Conditional Rendering: I will be using “v-if” and “v-else to show the tickets availability under the ‘Explore’ page. As well as an alert for user who typed incorrectly on the sign-up or sign-in page.  
+
+Event Handling: Using “v-on” to monitor DOM events and activate JavaScript as they are triggered. I will implement this on my booking ticket page as the user able to decide how many tickets they would like to purchase. 
+
+List Rendering: It is used to create a list of items generated from an array and display it on a webpage. 
+
+Declarative rendering: It is allowing us to render data to the DOM using simple template syntax in Vue. To interpolate the needed data in the DOM, double curly brackets are applied as placeholders.
+
+Form input binding: Using “v-model” on form input and text area components to build two-way data connections. 
+
+
 User intention and goals: 
 
 <img width="389" alt="user story 1-3" src="https://user-images.githubusercontent.com/87454125/128650621-7618b62a-27df-48ee-aec7-f3188ac0c5e8.png"> 
