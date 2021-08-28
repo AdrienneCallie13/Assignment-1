@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="Host.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Host.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/628c8d2499.js" crossorigin="anonymous"></script>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+    <script type="text/javascript" src="https://vuejs.org/js/vue.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://rawgit.com/lykmapipo/themify-icons/master/css/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://rawgit.com/cristijora/vue-form-wizard/master/dist/vue-form-wizard.min.css">
+    <script type="text/javascript" src="https://rawgit.com/cristijora/vue-form-wizard/master/dist/vue-form-wizard.js"></script>
+
+    <style type="text/css">
+        .finish-button {
+            background-color: #807C82 !important;
+            border-color: #807C82 !important;
+        }
+    </style>
+
+    <title></title>
+
+
+    <script type='text/javascript'>
+        //<![CDATA[
+        window.onload = function() {
+            Vue.use(VueFormWizard);
+            new Vue({
+                el: "#app",
+                methods: {
+                    onComplete: function() {
+                        alert("Yay. Done!");
+                    },
+                    isLastStep() {
+                        if (this.$refs.wizard) {
+                            return this.$refs.wizard.isLastStep;
+                        }
+                        return false;
+                    }
+                }
+            });
+        }; //]]>
+    </script>
+
+
+</head>
+
+<div class="topnav" id="myTopnav">
+    <a href="Community.html">Community</a>
+    <a href="Support.html">Support</a>
+    <a href="Host.html">Services</a>
+    <a href="Explore.html">Explore</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<body>
+
+    <div id="app">
+        <div>
+            <form-wizard @on-complete="onComplete" title="" subtitle="" ref="wizard" color="#807C82">
+                <tab-content title="Type" icon="ti-user">
+
+
+                    <div class="form-group">
+                        <input name="group2" type="radio" class="with-gap" id="radio4">
+                        <label for="radio4">Travellers</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input name="group2" type="radio" class="with-gap" id="radio5">
+                        <label for="radio5">Backpakers</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input name="group2" type="radio" class="with-gap" id="radio6">
+                        <label for="radio6">Family</label>
+                    </div>
+
+                </tab-content>
+                <tab-content title="Verification" icon="ti-id-badge">
+
+                    <div class="container">
+                        <!--First row-->
+                        <div class="row">
+                            <!--First column-->
+                            <div class="col-md-6">
+                                <div class="md-form form-sm">
+                                    <i class="material-icons prefix">First Name</i>
+                                    <input type="text" id="form92" class="form-control validate">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="md-form form-sm">
+                                    <i class="material-icons prefix">Last Name</i>
+                                    <input type="text" id="form91" class="form-control validate">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </tab-content>
+
+                <tab-content title="Confirmation" icon="ti-check">
+                    *Here might be a term of condition*
+                </tab-content>
+                <template slot="footer" scope="props">
+     
+        <div class="wizard-footer-right">
+          <wizard-button v-if="!props.isLastStep"@click.native="props.nextTab()" class="wizard-footer-right" :style="props.fillButtonStyle">Next</wizard-button>
+          
+          <wizard-button v-else @click.native="alert('Done')" class="wizard-footer-right finish-button" :style="props.fillButtonStyle">{{props.isLastStep ? 'Done' : 'Next'}}</wizard-button>
+        </div>
+       
+      </template>
+            </form-wizard>
+        </div>
+    </div>
+
+</body>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</html>
