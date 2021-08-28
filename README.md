@@ -130,6 +130,10 @@ On this first version proposal, I have created four UI designs for both mobile a
 
 <img width="525" alt="user story 8" src="https://user-images.githubusercontent.com/87454125/128651141-e284df9e-2fec-4e07-9ef1-7664d615f344.png"> User story 8.
 
+Updated or improved version of UI/UX prototype:
+•	Desktop: https://www.figma.com/proto/xc3a2S9SxQ5dme2rGgaHhq/macbook?node-id=2%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A3
+•	Mobile: https://www.figma.com/proto/jmYxLj62BhNF5VJRrQw8X4/iphone?scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A1254&node-id=2%3A1254
+
 Web system summary: 
 
 Below is the user journey through the website's primary functions. After user enter the website, they may access the website's functionality via homepage.
