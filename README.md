@@ -132,6 +132,7 @@ On this first version proposal, I have created four UI designs for both mobile a
 
 Updated or improved version of UI/UX prototype:
 •	Desktop: https://www.figma.com/proto/xc3a2S9SxQ5dme2rGgaHhq/macbook?node-id=2%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A3
+
 •	Mobile: https://www.figma.com/proto/jmYxLj62BhNF5VJRrQw8X4/iphone?scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A1254&node-id=2%3A1254
 
 Web system summary: 
@@ -148,5 +149,17 @@ The following features will be available on this website:
 
 •	Users also able to share their experiences under the ‘community’ menu.
 
-<img width="355" alt="Screen Shot 2021-08-09 at 10 56 25 am" src="https://user-images.githubusercontent.com/87454125/128651282-5fe77230-d715-4e87-a703-d6531ac006e9.png"> Web system functionality.
+<img width="355" alt="Screen Shot 2021-08-28 at 7 21 08 pm" src="https://user-images.githubusercontent.com/87454125/131213189-e7d38ffd-a280-439d-a5f6-4276b0f8e390.png"> Web system functionality.
+
+
+<img width="355" alt="Screen Shot 2021-08-28 at 7 21 19 pm" src="https://user-images.githubusercontent.com/87454125/131213218-ffa4e647-a53d-47cc-b88e-0dd4d53669a9.png"> Vue Components functionality.
+
+Concept and development planning
+
+•	HTML, CSS, JavaScript, and Vue.js will be used extensively on this web app development. Vue.js, in particular, will play a significant role in a variety of functions. (e.g. registration form, search bar, ticket counter, and many more). I will try to create a live chat box using Vue or JavaScript library for real time web applications.
+
+•	I would like to complete the task stage by stage (one menu to another menu) within 11 weeks. I created a timeline to help me track my workload. I also put extra days at the end of week 11 to make some improvement and gain more feedback from friends and tutors before the submission date. 
+
+<img width="355" alt="Screen Shot 2021-08-28 at 7 21 30 pm" src="https://user-images.githubusercontent.com/87454125/131213239-44a63d1c-1fc5-41e0-bf5f-2f6123481b93.png"> Task development timeline.
+
 
