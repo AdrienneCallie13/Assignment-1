@@ -26,6 +26,28 @@ app.js: Using JavaScript on web page helps to create responsive, interactive ele
 
 App.vue: includes all of the other Vue components. Single file.
 
+Vue components:
+
+Search.vue: This component will accept the user's text input and provide a list of travel destination that match the keywords. 
+
+FormVerification.vue: This verification component is to verifies that all necessary fields are filled out.
+
+Calender.vue: The calendar component will be display on the ‘flight’, ‘travel destination’ and ‘experiences’ search bar for user to decide what date are they going to go for a holiday.  
+
+PhotoCarousel.vue: Using v-card component to display bunch of travel photography captured by experience travellers. This photo carousel will be render under ‘Documentation’ on the ‘support’ page. 
+
+ChatBox.vue: This component allow user to ask inquiry using the live chat feature. 
+
+ContactUs_Call.vue: Create a pop-up box that contains company’s call centre number by using modal component under contact page (call). It is allowed user to ask inquiry through phone call. 
+
+AlertSubmit.vue: Using v-else to create a pop-up alert box after a user manage to create an account.   
+
+GuestsCounter.vue: This component will work well with buttons.  By selecting how many guests, the system will be redirect user to a suitable accommodation according to the number of the guests. 
+ 
+OptionList.vue: Using list rendering to create options on my “Become a host” form by listing several options to identify and verify users.
+ 
+Review.vue: I will apply v-model on my registration form as well as creating a message box for user to write their travel review. 
+
 
 Product Purpose:
 
