@@ -1,6 +1,15 @@
 Summary:
 
-Travel websites provide as a platform for destination management corporations to supplant local travel agencies. The goal of travel websites is to give information on tourist destinations, whether they be local or worldwide. When arranging vacations to places users are unfamiliar with, users may need to do some research. Users can book transportation, day tours, restaurants, and accommodations. Because it employs responsive design techniques, this website is also accessible on a broad range of devices.
+'Around Us' travel websites provide a platform for destination management corporations to supplant local travel agencies. The goal of travel websites is to give information on tourist destinations, whether they be local or worldwide. When arranging vacations to places users are unfamiliar with, users may need to do some research. 
+
+There are three main menus under the 'Explore' menu:
+
+•	Firstly, on the 'Flight' page, the user can book a flight ticket before travel.
+•	Secondly, under 'Travel Destination', users are able to book the accommodation according to their needs. This is because the website page provides a function for users to range the accommodation price, stay dates, as well as locations.
+•	Thirdly, in the 'Experiences', users are able to book a theme park ticket, museum entry ticket, and many more.
+
+With 'Around Us', not only make people's lives easier by planning and booking their travel, but it is also a sharing platform from people around the world to share their travel destination, provide feedback, recommendation, and suggestion about the holiday experience.
+
 
 Asset list:
 
