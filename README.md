@@ -5,7 +5,9 @@ Summary:
 There are three main menus under the 'Explore' menu:
 
 •	Firstly, on the 'Flight' page, the user can book a flight ticket before travel.
+
 •	Secondly, under 'Travel Destination', users are able to book the accommodation according to their needs. This is because the website page provides a function for users to range the accommodation price, stay dates, as well as locations.
+
 •	Thirdly, in the 'Experiences', users are able to book a theme park ticket, museum entry ticket, and many more.
 
 With 'Around Us', not only make people's lives easier by planning and booking their travel, but it is also a sharing platform from people around the world to share their travel destination, provide feedback, recommendation, and suggestion about the holiday experience.
