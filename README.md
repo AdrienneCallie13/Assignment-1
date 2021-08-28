@@ -24,6 +24,9 @@ Style.css: Styling the web pages by interacting with HTML elements and using med
 
 app.js: Using JavaScript on web page helps to create responsive, interactive elements for web pages, aims to enhancing the user experience. app.js linked in HTML page.
 
+App.vue: includes all of the other Vue components. Single file.
+
+
 Product Purpose:
 
 •	Target audience
